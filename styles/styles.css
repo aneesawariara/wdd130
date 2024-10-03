@@ -1,5 +1,12 @@
+:root {
+    --color-used: steelblue;
+    --border-used: 1px;
+    --text-align-last: center;
+ 
+}
+
 nav {
-    background-color: steelblue;
+    background-color: var(--color-used);
     padding: 10px;
 }
 
@@ -10,13 +17,13 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: var(--color-used);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: var(--border-used) solid var(--color-used);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -31,11 +38,11 @@ main{
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: var(--border-used) solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align-last);
 }
 /* hi */
 aside img{
@@ -45,6 +52,6 @@ aside img{
 
 footer{
     margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+    border-top: var(--border-used) solid #000;
+    text-align: var(--text-align-last);
 }
