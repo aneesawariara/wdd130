@@ -1,0 +1,109 @@
+/* rafting.css */
+
+/* Define CSS variables in the :root pseudo-class selector */
+:root {
+    --primary-color: #003666; /* Example color */
+    --secondary-color: #1fa73f; /* Example color */
+    --font-color: #333333; /* Example color */
+    --background-color: #ffffff; /* Example color */
+    --heading-font: 'Pacifico', cursive, sans-serif; 
+    --paragraph-font: 'Jost','Arial', sans-serif; 
+}
+
+/* Style for the body */
+body {
+    font-family: var(--paragraph-font);
+    color: var(--font-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px; /* Limit the entire width of the page */
+    margin: auto; /* Center the page */
+}
+/* CSS for the hero section */
+.hero {
+    position: relative;
+    background-image: url('wwr.images/wwr2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Positioning the h1 and article elements */
+.hero h1,
+.hero article {
+    position: absolute;
+    padding: 20px;
+    color: var(--background-color); 
+}
+
+
+.hero h1 {
+    top: 20px; 
+    position: center; 
+    background-color: black;
+    opacity: 65%;
+}
+
+
+.hero article {
+    bottom: 20px; 
+    right: 20px; 
+    background-color: rgba(0, 54, 102, 0.65) ;
+    
+}
+
+
+.hero article img{
+    display: block;
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+/* Style for headings */
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+h1, article{
+    position: absolute;
+}
+
+article > p{
+    color: var(--background-color);
+}
+
+/* Style for paragraphs */
+p {
+    font-family: var(--paragraph-font);
+    color: var(--font-color);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+a.social-media {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a.social-media:hover {
+    color: var(--secondary-color);
+}
