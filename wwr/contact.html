@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="wwr.images/ww1.jpg" alt="white water rafting logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Trips</a>
+                <a href="#">Contact Us</a>
+             
+            </nav>
+        </header>
+        <main class="container">
+            <section class="company-info">
+                <h2>Get in Touch with Us</h2>
+                <div class="contact-box">
+                    <h3>Phone</h3>
+                    <p>Call one of these numbers and out employees will answer your every question!</p>
+                    <p>(123) 456-7890</p>
+                    <p>(321) 098-7654</p>
+                </div>
+                <div class="contact-box">
+                    <h3>Email</h3>
+                    <p>Can't reach us on our numbers? No worries. Email us.</p>
+                    <p>info@raftingadventures.com</p>
+                </div>
+                <div class="contact-box">
+                    <h3>Address</h3>
+                    <p>Find us at our headquarters!</p>
+                    <p>Estes Park, CO</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97300.67065216714!2d-105.5987481855503!3d40.35019923121771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876965d6bb191a03%3A0xdb9698b7a9caac0c!2sEstes%20Park%2C%20CO%2080517%2C%20USA!5e0!3m2!1sen!2ske!4v1729321631325!5m2!1sen!2ske" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+    
+            <section class="employee-profiles">
+                <h2>Our Team</h2>
+                <div class="profile">
+                    <img src="wwr.images/happy-employee1.jpg" alt="Happy Employee 1">
+                    <figcaption>Meadow Reaves - Guide</figcaption>
+                </div>
+                <div class="profile">
+                    <img src="wwr.images/happy-employee2.jpg" alt="Happy Employee 2">
+                    <figcaption>Prita Ramakrishnan- Manager</figcaption>
+                </div>
+                <div class="profile">
+                    <img src="wwr.images/happy-employee3.jpg" alt="Happy Employee 3">
+                    <figcaption>Kimberley Kendi - Coordinator</figcaption>
+                </div>
+            </section>
+    
+            <section class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <div class="form-item">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <fieldset>
+                        <legend>Purpose of Message</legend>
+                        <div class="form-item">
+                            <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                            <label for="general-inquiry">General Inquiry</label>
+                            <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                            <label for="reservation-question">Reservation Question</label>
+                            <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                            <label for="website-suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <div class="form-item column1">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                    
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+        </main>
+            
+        
+        
+        <footer class="footer">
+            <p>©2024 White Water Rafting, Aneesa</p>
+            <nav class="sociallinks">
+                <a href="https://app.moqups.com/pP7aakpWi854iCEqvLuPQJo6eHEd5NjP/view/page/ad12de680">
+                    <img src="wwr.images/wireframe-link.webp" alt="Wireframe">
+
+                </a>
+                <a href="https://facebook.com">
+                    <img src="wwr.images/facebook.webp" alt="Facebook">
+
+                </a>
+                <a href="https://twitter.com">
+                    <img src="wwr.images/twitter.webp" alt="Twitter">
+
+                </a>
+                <a href="https://instagram.com">
+                    <img src="wwr.images/instagram.webp" alt="Instagram">
+
+                </a>  
+            </nav>
+        </footer>
+    </body>
+</html>

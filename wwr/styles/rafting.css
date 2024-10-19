@@ -226,3 +226,156 @@ a.social-media:hover {
     width: 24px;
     height: 24px;
 }
+
+/* Contact Us page */
+
+.company-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px
+}
+
+.company-info h2{
+    grid-column: 1 / -1;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+.contact-box{
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--background-color);
+}
+
+.contact-box p{
+    color: var(--background-color);
+}
+
+.company-info iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    grid-column: 1 / -1; /* Ensures iframe spans full width */
+    
+}
+
+.employee-profiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.employee-profiles h2{
+    grid-column: 1 / -1;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.employee-profiles img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+}
+
+
+
+.contact-form h2{
+    grid-column: 1 / -1;
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+form{
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+
+.contact-form label {
+    justify-self: flex-start;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form fieldset {
+    grid-column: 1 / -1;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.contact-form legend {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.contact-form label[for="purpose"],
+.contact-form label[for="subscribe"] {
+    grid-column: 1 / -1;
+    justify-self: start;
+}
+
+.contact-form input[type="radio"] {
+    justify-self: flex-start;
+}
+
+.contact-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.contact-form label[for="subscribe"] {
+    display: flex;
+    align-items: center;
+}
+.contact-form button {
+    grid-column: 1 / -1;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
