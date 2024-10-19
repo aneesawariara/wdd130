@@ -33,6 +33,18 @@
     padding: 10px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
 
 
 /* Main Content */
@@ -228,6 +240,14 @@ a.social-media:hover {
 }
 
 /* Contact Us page */
+
+.company-info h1{
+    grid-column: 1 / -1;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
 
 .company-info{
     display: grid;
